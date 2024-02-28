@@ -1,147 +1,160 @@
-// import CategoryCard from "./CategoryCard";
-
-// const data = [
-//     {
-//         id: 0,
-//         Price: 43,
-//         name: "Pure white Polo",
-//         img: "/Category/1.png",
-//     },
-//     {
-//         id: 1,
-//         Price: 43,
-//         name: "Pure white Polo",
-//         img: "/Category/1.png",
-//     },
-//     {
-//         id: 2,
-//         Price: 43,
-//         name: "Pure white Polo",
-//         img: "/Category/1.png",
-//     },
-//     {
-//         id: 3,
-//         Price: 43,
-//         name: "Pure white Polo",
-//         img: "/Category/1.png",
-//     },
-//     {
-//         id: 4,
-//         Price: 43,
-//         name: "Pure white Polo",
-//         img: "/Category/1.png",
-//     },
-//     {
-//         id: 5,
-//         Price: 43,
-//         name: "Pure white Polo",
-//         img: "/Category/1.png",
-//     },
-//     {
-//         id: 6,
-//         Price: 43,
-//         name: "Pure white Polo",
-//         img: "/Category/1.png",
-//     },
-//     {
-//         id: 7,
-//         Price: 43,
-//         name: "Pure white Polo",
-//         img: "/Category/1.png",
-//     },
-//     {
-//         id: 8,
-//         Price: 43,
-//         name: "Pure white Polo",
-//         img: "/Category/1.png",
-//     },
-
-// ];
-
+import { FaShoppingCart } from "react-icons/fa";
 const Category = () => {
   return (
-    <div className="container pt-16">
-      <div className="flex">
+    <div className="p-10">
+      <div className="text-center justify-center items-center grid grid-rows-none grid-cols-5 md:grid-cols-4 sm:grid-cols-2">
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/1.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/2.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/3.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/4.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/5.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/6.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/7.png"
           alt="banner"
         />
-      </div>
-      <div className="flex p-4">
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/8.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/9.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/10.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/11.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/12.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/13.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
         <img
-          className="pl-5 h-auto max-w-full rounded-lg"
+          className="h-98 w-98 object-cover"
           src="/Category/14.png"
           alt="banner"
         />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        <div className= "p-5 text-center justify-center items-center">
+        <img
+          className="h-98 w-98 object-cover"
+          src="/Category/15.png"
+          alt="banner"
+        />
+        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <h1 className="w-auto h-auto font-bold">$43</h1>
+        <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
+        </div>
+        
       </div>
-      {/* {data.map(el => 
-            <CategoryCard 
-            key= {el.id}
-            img={el.img}
-            count={el.Price}
-            name={el.name}
-            />)} */}
     </div>
   );
 };
