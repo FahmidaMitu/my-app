@@ -1,4 +1,5 @@
 import { FaShoppingCart } from "react-icons/fa";
+
 const Category = () => {
   return (
     <div className="p-10">
@@ -9,7 +10,7 @@ const Category = () => {
           src="/Category/1.png"
           alt="banner"
         />
-        <a className="text-2xl" href=" "><FaShoppingCart /></a>
+        <a className="text-2xl" href="src/components/cart.html"><FaShoppingCart /></a>
         <h1 className="w-auto h-auto font-bold">$43</h1>
         <h1 className="w-auto h-auto font-bold">Pure white polo</h1>
         </div>

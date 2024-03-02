@@ -1,11 +1,7 @@
 import React from 'react';
 import { FaEllipsisVertical } from 'react-icons/fa6';
 const Navbar = () => {
-  //   const[nav, setNav] = useState(false)
 
-  //    const handleNavbar = () => {
-  //     setNav(!nav)
-  //    }
   return (
     <div className="justify-between items-center h-24 w-max mx-auto">
       {/* Header */}
